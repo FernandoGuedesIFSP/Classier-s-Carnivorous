@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerlogin{
+    display: flex;
+    border-bottom: solid #54414E;
+}
+#loginbarra{
+    width: 95%;
+    height: 1%;
+    background-color: #d7ead4;
+    display: flex;
+    justify-content: end;
+    font-size: x-small;
+    gap: 5px;
+}
+#loginespaco{
+    width: 5%;
+    background-color: #d7ead4;
+}
+#barra{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #c5ebc3;
+    justify-content: space-between;
+}
+#leftbarra{
+    margin-left: 20px;
+    background-color: #c5ebc3;
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#rightbarra{
+    background-color: #c5ebc3;
+    display: flex;
+    gap:50px;
+    align-items: center;
+    width: 27%;
+}
+.pesquisa{
+    color: #c5ebc3;
+    background-color: #54414E;;
+}
+a{
+    color: #54414E;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #B7C8B5;
+}
