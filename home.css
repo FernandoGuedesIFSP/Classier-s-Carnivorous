@@ -34,6 +34,7 @@
     align-items: center;
 }
 #logo{
+    margin-left: 4%;
     width: 100px;
     height: 100px;
 }
