@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.containerlogin{
+.containerLogin{
     display: flex;
     border-bottom: solid #54414E;
 }
-#loginbarra{
+#loginBarra{
     width: 97%;
     height: 1%;
     background-color: #d7ead4;
@@ -15,7 +15,7 @@
     font-size: x-small;
     gap: 5px;
 }
-#loginespaco{
+#loginEspaco{
     width: 3%;
     background-color: #d7ead4;
 }
@@ -26,7 +26,7 @@
     background-color: #c5ebc3;
     justify-content: space-between;
 }
-#leftbarra{
+#leftBarra{
     margin-left: 20px;
     background-color: #c5ebc3;
     display: flex;
@@ -38,16 +38,16 @@
     width: 100px;
     height: 100px;
 }
-.containerdiretoriosbarra{
+.containerDiretoriosBarra{
     width: 1400px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 }
-.diretoriosbarra:hover{
+.diretoriosBarra:hover{
     background-color: #B7C8B5;
 }
-#rightbarra{
+#rightBarra{
     background-color: #c5ebc3;
     display: flex;
     gap:50px;
