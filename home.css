@@ -7,7 +7,7 @@
     border-bottom: solid #54414E;
 }
 #loginbarra{
-    width: 95%;
+    width: 97%;
     height: 1%;
     background-color: #d7ead4;
     display: flex;
@@ -16,7 +16,7 @@
     gap: 5px;
 }
 #loginespaco{
-    width: 5%;
+    width: 3%;
     background-color: #d7ead4;
 }
 #barra{
@@ -37,12 +37,21 @@
     width: 100px;
     height: 100px;
 }
+.containerdiretoriosbarra{
+    width: 1400px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.diretoriosbarra:hover{
+    background-color: #B7C8B5;
+}
 #rightbarra{
     background-color: #c5ebc3;
     display: flex;
     gap:50px;
     align-items: center;
-    width: 27%;
+    width: 15%;
 }
 .pesquisa{
     color: #c5ebc3;
