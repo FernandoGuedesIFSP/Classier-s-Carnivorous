@@ -65,3 +65,12 @@ a{
 a:hover{
     background-color: #B7C8B5;
 }
+#carnivorasHome{
+    margin: 15px 0px;
+}
+.containerProduto{
+    width: 300px;
+    height: 400px;
+    margin: 20px 0px;
+    background-color: red;
+}
