@@ -62,18 +62,26 @@ a{
 }
 a:hover{
     background-color: #B7C8B5;
+    text-decoration:underline;
 }
 #carnivorasHome{
     margin: 15px 0px;
 }
+.containerProdutos{
+    margin: 0% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
 .caixaProduto{
     width: 250px;
-    height: 380px;
+    height: 420px;
     margin: 20px 0px;
     background-color: #dceedb;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 40px;
 }
 .imgProduto{
     width: 96%;
@@ -86,10 +94,20 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-size:large;
+    text-align: center;
 }
 .botaoCompra{
     width: 200px;
     height: 40px;
     background-color: #54414E;
     color: #dceedb;
+    font-size:x-large;
+}
+.nomeProduto{
+    margin: 0px 10px;
+}
+.preco{
+    font-size: xx-large;
+    text-decoration:overline;
 }
