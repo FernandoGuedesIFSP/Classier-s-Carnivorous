@@ -63,20 +63,43 @@
 #containerProduto{
     display: flex;
 }
+#imagem{
+    margin: 3% 1%;
+    box-shadow: 30px 10px #54414E;
+    width: 50%;
+}
 #especificacoes{
     margin: 3%;
     display: flex;
     flex-direction: column;
+    color: #463741;
 }
 h1{
     font-size: 300%;
 }
 #estrelas{
-    margin: 2% 0%;
+    border-top: solid #838e82;
+    padding-top: 2%;
     font-size: 250%;
 }
-#imagem{
-    margin: 3% 1%;
-    box-shadow: 30px 10px #54414E;
-    width: 50%;
+#preco{
+    font-size: 40px;
+    padding-top: 10%;
+    margin-bottom: 20%;
+}
+#containerBotaoComprar{
+    width: 100%;
+    display: flex;
+    
+}
+#botaoComprar{
+    width: 204px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cestaIcone{
+    color: #54414E;
+    font-size: 50px;;
 }
