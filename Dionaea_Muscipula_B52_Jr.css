@@ -89,13 +89,23 @@ h1{
 }
 #preco{
     font-size: 40px;
-    padding-top: 10%;
-    margin-bottom: 20%;
+    padding-top: 5%;
+    margin-bottom: 13%;
 }
 #containerBotaoComprar{
     width: 100%;
     display: flex;
     
+}
+#containerComprar{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+#quantidade{
+    width: 10%;
+    height: 50px;
+    font-size: 200%;
 }
 #botaoComprar{
     width: 204px;
@@ -103,9 +113,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #c5ebc3;
+    background-color: #54414E;
+    font-size: 150%;
+    gap: 3%;
 }
 #cestaIcone{
-    color: #54414E;
+    color: #c5ebc3;
     font-size: 50px;;
 }
 
