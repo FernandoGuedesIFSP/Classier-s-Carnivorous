@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Carrinho - Classier's Carnivorous</title>
-    <link rel="stylesheet" href="carrinho.css">
+    <title>Produtos/Nepenthes [(Viking x Ampullaria BC) x Ampullaria BC)] x Rafflesiana Dark Red - Classier's Carnivorous</title>
+    <link rel="stylesheet" href="Produto.css">
     <link rel="icon" href="img/logo.loja.recortado.jpg">
 </head>
 <body>
@@ -51,103 +51,39 @@
 
 
 
-    
 
 
-    <div id="containerCarrinho">
-        <div id="containerProdutos">    
-            <h1>Meu carrinho:</h1>
-            <div id="linha1Produto">
-                <p class="pProduto">Produto</p>
-                <p class="pQuantidade">Quantidade</p>
-                <p class="pRemover">Remover</p>
-                <p class="pPreco">Preço</p>
+    <div id="containerProduto">
+        <img id="imagem" src="img/Produtos/Nepenthes [(Viking x Ampullaria BC) x Ampullaria BC)] x Rafflesiana Dark Red.jpg">
+
+        <div id="especificacoes">
+            <h1>Nepenthes [(Viking x Ampullaria BC) x Ampullaria BC)] x Rafflesiana Dark Red</h1>
+
+            <div id="estrelas">
+                <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
             </div>
 
-            <div id="produtosCarrinho">
-                <div class="containerImgNomeProduto">
-                    <img class="imgProduto" src="img/Produtos/Dionaea B52 Jr.jpg">
-                    <p class="nomeProduto">Dionaea B52 Jr</p>
-                </div>
+            <h2 id="preco">R$79,90</h2>
 
-                <input name="pedido" class="quantidade" type="number">
+            <form id="containerComprar" action="carrinho.html"> 
+                <input id="quantidade" type="number">
 
-                <ion-icon class="removerIcon"  name="trash-bin"></ion-icon>
-                
-                <p class="precoProduto">R$49,90</p>
-            </div>
-
-            
-            <div id="produtosCarrinho">
-                <div class="containerImgNomeProduto">
-                    <img class="imgProduto" src="img/Produtos/Musgo Sphagnum Desidratado 100 Gramas.jpg">
-                    <p class="nomeProduto">Musgo Sphagnum Desidratado 100 Gramas</p>
-                </div>
-
-                <input name="pedido" class="quantidade" type="number">
-
-                <ion-icon class="removerIcon"  name="trash-bin"></ion-icon>
-                
-                <p class="precoProduto">R$4,90</p>
-            </div>
-            
-            <div id="produtosCarrinho">
-                <div class="containerImgNomeProduto">
-                    <img class="imgProduto" src="img/Produtos/Pinguicula Aphrodite.jpg">
-                    <p class="nomeProduto">Pinguicula Aphrodite</p>
-                </div>
-
-                <input name="pedido" class="quantidade" type="number">
-
-                <ion-icon class="removerIcon"  name="trash-bin"></ion-icon>
-                
-                <p class="precoProduto">R$19,90</p>
-            </div>
-        </div>
-
-        <div id="containerPedido">
-            <h2 id="h2Pedido">Resumo do pedido:</h2>
-
-            <div class="listaProdutosPedido">
-                <p class="nomeProduto">Dionaea B52 Jr</p>
-
-                <p class="precoProduto">R$49,90</p>
-            </div>
-            
-            <div class="listaProdutosPedido">
-                <p class="nomeProduto">Musgo Sphagnum Desidratado 100 Gramas (2x)</p>
-
-                <p class="precoProduto">R$9,80</p>
-            </div>
-            
-            <div class="listaProdutosPedido">
-                <p class="nomeProduto">Pinguicula Aphrodite</p>
-                
-                <p class="precoProduto">R$19,90</p>
-            </div>
-
-            <div id="total">
-                <div id="containerFrete">
-                    <p class="frete">Frete:</p>
-
-                    <p class="precoFrete">R$15,00</p>
-                </div>
-
-                <div id="containerTotal">
-                    <h2>Total</h2>
-
-                    <h2>R$94,60</h2>
-                </div>
-            </div>
-
-            <form action="">
-                <button name="pedido" id="bttnContinuar" type="submit">CONTINUAR</button>
+                <button id="botaoComprar" type="submit">
+                    <ion-icon id="cestaIcone" name="basket"></ion-icon>
+                    <p>COMPRAR</p>                
+                </button>
             </form>
+
+
             
         </div>
-    
-    </div>
 
+    </div>
+    <div id="containerDescricao">
+        <h2 id="h2Descricao">Descrição</h2>
+
+        <p id="descricao">A Nepenthes é um gênero de plantas carnívoras conhecido popularmente como planta jarro ou planta-dos-cântaros. Originárias de regiões tropicais da Ásia, Madagascar e algumas partes da Austrália, as Nepenthes possuem folhas que se modificaram ao longo da evolução, formando estruturas em forma de jarro ou cântaro. Essas "jarras" contêm um líquido digestivo no fundo, que atrai, captura e dissolve insetos e, ocasionalmente, pequenos vertebrados como rãs e até roedores. A borda do jarro, conhecida como peristômio, é frequentemente lisa e escorregadia, dificultando a fuga das presas. As Nepenthes vivem em solos pobres em nutrientes, como as Dionaeas, e utilizam a digestão das presas para complementar suas necessidades nutricionais. As plantas desse gênero variam bastante em tamanho e forma, desde pequenas até grandes o suficiente para capturar presas relativamente grandes. Elas são apreciadas tanto pela sua aparência exótica quanto pelo seu fascinante método de captura.</p>
+    </div>
 
 
 
@@ -200,5 +136,4 @@
 </body>
 
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-
 </html>

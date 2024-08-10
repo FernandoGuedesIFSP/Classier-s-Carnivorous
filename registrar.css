@@ -14,7 +14,8 @@
     display: flex;
     width: 30%;
     flex-direction: column;
-    background-color: #83717d;
+    color: #c5ebc3;
+    background-color: #54414E;
     box-shadow: 15px 15px #462f3e;
 }
 h1{
@@ -44,10 +45,11 @@ h1{
     height: 45px;
     font-size: 100%;
     margin-top: 5%;
-    background-color:#83717d;
+    color: #c5ebc3;
+    background-color: #54414E;
 }
 #bttnCadastrar:hover{
-    background-color: #bda7b6;
+    background-color: #5d545a;
 }
 #containerLogin{
     display: flex;

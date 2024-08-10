@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 6%;
 }
 .pesquisa{
     color: #c5ebc3;
@@ -144,13 +145,15 @@
     box-shadow: 12px 12px #362a32;
 }
 #h2Pedido{
-    background-color: #d2ebcf;
+    padding: 3% 0%;
+    margin-bottom: 2%;
+    color: #c5ebc3;
+    background-color: #54414E;
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     border-bottom:#362a32 solid;
 }
 .listaProdutosPedido{
@@ -187,9 +190,13 @@
     height: 40px;
     font-size: 100%;
     margin-top: 5%;
-    background-color:#83717d;
+    color: #c5ebc3;
+    background-color: #54414E;
     border: #362a32 solid 5px;
     margin-bottom: 5%;
+}
+#bttnContinuar:hover{
+    background-color: #5d545a;
 }
 form{
     width: 100%;

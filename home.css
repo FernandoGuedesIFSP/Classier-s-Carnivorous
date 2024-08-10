@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 6%;
 }
 .pesquisa{
     color: #c5ebc3;
@@ -113,6 +114,11 @@
     font-size: xx-large;
     text-decoration:overline;
     border-bottom: solid #54414E;
+}
+#h1Titulo{
+    margin: 5%;
+    margin-bottom: 0%;
+    text-decoration: underline;
 }
 
 
