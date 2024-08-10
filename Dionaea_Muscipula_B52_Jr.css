@@ -41,7 +41,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 6%;
 }
 .pesquisa{
     color: #c5ebc3;
@@ -64,35 +63,51 @@
 
 
 
-#container{
+
+
+#containerProduto{
     display: flex;
-    width: 100%;
-    align-items: center;
 }
-#containerSobre{
+#imagem{
+    margin: 3% 1%;
+    box-shadow: 30px 30px #54414E;
+    width: 50%;
+}
+#especificacoes{
+    margin: 3%;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    color: #362a32;
-    margin: 0% 5% 10% 5%;
-    border-bottom: #362a32 solid;
-    padding-bottom: 3%;
+    color: #463741;
 }
-#h1Sobre{
-    margin: 5% 0;
-    border-bottom: #362a32 solid;
+h1{
+    font-size: 300%;
 }
-#containerLogoSobre{
-    height: 770px;
-    margin: 5%;
-    display: flex;
-    align-items: center;
+#estrelas{
+    border-top: solid #838e82;
+    padding-top: 2%;
+    font-size: 250%;
 }
-#logoSobre{
-    box-shadow: 12px 12px #362a32;
+#preco{
+    font-size: 40px;
+    padding-top: 10%;
     margin-bottom: 20%;
 }
-
+#containerBotaoComprar{
+    width: 100%;
+    display: flex;
+    
+}
+#botaoComprar{
+    width: 204px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cestaIcone{
+    color: #54414E;
+    font-size: 50px;;
+}
 
 
 
@@ -102,7 +117,7 @@ footer{
     margin-top: 5%;
     border-top: solid #9ba999 30px;
     background-color: #362a32;
-    height: 1050px;
+    height: 1300px;
     color:#caeac8;
 }
 #containerLinha1Footer{
@@ -140,6 +155,12 @@ footer{
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+}
+#containerSobre{
+    border-bottom: solid #B7C8B5;
+}
+.sobre{
+    margin: 1% 5%;
 }
 #containerImgRodape{
     width: 100%;

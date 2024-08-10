@@ -64,34 +64,108 @@
 
 
 
-#container{
+#container1{
     display: flex;
-    width: 100%;
-    align-items: center;
+    justify-content: space-between;
+    margin: 0% 3%;
 }
-#containerSobre{
+#containerProdutos{
+    width: 40%;
+}
+.titulos{
+    padding: 4%;
+    padding-bottom: 2%;
+}
+#listaProdutos{
+    margin: 2%;
+}
+.linhaH2{
+    width: 100%;
+    padding: 0% 2%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #362a32 solid;
+}
+.linhaProduto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #362a32 dashed;
+    padding: 1% 2%;
+}
+.preco{
+    text-decoration: underline;
+}
+.containerDireita{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 40%;
+}
+.linhaH2Endereco{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: end;
+    border-bottom: #362a32 solid;
+}
+#pEndereco{
+    display: flex;
+    justify-content: end;
+    margin: 0.5%;
+    margin-left: 2%;
+}
+#container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 3%;
+}
+#containerPagamento{
+    width: 40%;
+    flex-direction: row-reverse;
+}
+#radiosPagamento{
+    margin-left: 3%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    color: #362a32;
-    margin: 0% 5% 10% 5%;
-    border-bottom: #362a32 solid;
-    padding-bottom: 3%;
 }
-#h1Sobre{
-    margin: 5% 0;
-    border-bottom: #362a32 solid;
+#tituloCupom{
+    border-top:#362a32 solid;
 }
-#containerLogoSobre{
-    height: 770px;
-    margin: 5%;
+#cupom{
+    display: flex;
+    margin-top: 1%;
+}
+#bttnCupom{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
 }
-#logoSobre{
-    box-shadow: 12px 12px #362a32;
-    margin-bottom: 20%;
+#containerBttnFinalizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#bttnFinalizar{
+    width: 200px;
+    height: 100px;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c5ebc3;
+    background-color: #54414E;
+    box-shadow: 8px 8px;
+    margin-top: 20%;
+}
+
+
+
 
 
 
@@ -102,7 +176,7 @@ footer{
     margin-top: 5%;
     border-top: solid #9ba999 30px;
     background-color: #362a32;
-    height: 1050px;
+    height: 1300px;
     color:#caeac8;
 }
 #containerLinha1Footer{
@@ -140,6 +214,12 @@ footer{
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+}
+#containerSobre{
+    border-bottom: solid #B7C8B5;
+}
+.sobre{
+    margin: 1% 5%;
 }
 #containerImgRodape{
     width: 100%;
