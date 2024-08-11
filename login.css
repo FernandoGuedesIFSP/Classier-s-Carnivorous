@@ -54,6 +54,14 @@ h1{
 #registrar{
     margin: 4% 0%;
 }
+#containerAdm{
+    display: flex;
+    justify-content: end;
+    margin: 0% 2%;
+}
+
+
+
 
 
 

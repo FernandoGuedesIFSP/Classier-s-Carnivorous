@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containerLogin{
+    display: flex;
+    border-bottom: solid #54414E;
+    height: 30px;
+    display: flex;
+}
+#loginBarra{
+    width: 100%;
+    height: 100%;
+    background-color: #d7ead4;
+    display: flex;
+    font-size: x-small;
+    gap: 5px;
+    font-size: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 3%;
+}
+#barra{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #c5ebc3;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid #54414E;
+    gap: 7%;
+}
+#logo{
+    height: 100%;
+    margin-left: 5%;
+    padding: 2px;
+}
+.containerDiretoriosBarra{
+    width: 48.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6%;
+}
+.pesquisa{
+    color: #c5ebc3;
+    background-color: #54414E;
+}
+#carrinhoIcone{
+    font-size: 30px;
+    padding-right: 3%;
+    padding: 5px;
+}
+.aDiretorio{
+    color:#54414E;
+    text-decoration: none;
+}
+.aDiretorio:hover{
+    background-color: #B7C8B5;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#containerLeft{
+    width: 20%;
+    height: 325px;
+    margin: 3%;
+    background-color:#d8ecd7;
+    border: #362a32 solid 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: #362a32 solid;
+    padding: 28px 10%;
+    gap: 10px;
+}
+#containerProdutos{
+    margin: 3%;
+    width: 60%;
+    margin-right: 8%;
+}
+#linha1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #362a32 solid;
+    padding: 0% 0% 1% 12%;
+}
+#linhaProdutos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+    border-bottom: #362a32 solid;
+}
+#produto{
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nomeProduto{
+    width: 50%;
+}
+.estoque{
+    width: 4%;
+}
+#editarIcon{
+    font-size: 20px;
+}
+.iconProduto{
+    width: 4%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 5%;
+    border-top: solid #9ba999 30px;
+    background-color: #362a32;
+    height: 1300px;
+    color:#caeac8;
+}
+#containerLinha1Footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 8%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
+.linha1Footer{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#novidades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#receba{
+    margin: 3%;
+}
+.logoFooter{
+    font-size: 70px;
+    color:#caeac8;
+    margin-right: 1%;
+}
+#containerFormasDePagamento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+#containerSobre{
+    border-bottom: solid #B7C8B5;
+}
+.sobre{
+    margin: 1% 5%;
+}
+#containerImgRodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
