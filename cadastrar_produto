@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Dashboard - Classier's Carnivorous</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <title>Cadastrar Produto - Classier's Carnivorous</title>
+    <link rel="stylesheet" href="cadastrar_produto.css">
     <link rel="icon" href="img/logo.loja.recortado.jpg">
 </head>
 <body>
@@ -69,49 +69,32 @@
             </div>
         </div>
 
-        <div id="containerProdutos">
-            <h1>Produtos Cadastrados</h1>
-            <div id="linha1">
-                <h2>Produto</h2>
-                <h2>Estoque</h2>
-                <h2>Preço</h2>
-                <h2>Editar</h2>
-                <h2>Deletar</h2>
-            </div>
+       <div id="containerCadastro">
+        <h1>Cadastrar Produto</h1><br>
+        <form action="">
+            <h2>Descrição</h2>
+            <input class="inputs" type="text" placeholder="Ex: Dionaea Giant Clam">
 
-            <div id="linhaProdutos">
-                <div id="produto">
-                    <img src="img/Produtos/Pinguicula Aphrodite.jpg" width="80px">
-                    <p id="nomeProduto">Pinguicula Aphrodite</p>
-                </div>
-                <p class="estoque">10</p>
-                <p>R$19,90</p>
-                <a class="iconProduto" href=""><ion-icon id="editarIcon" name="pencil-sharp"></ion-icon></a>
-                <a class="iconProduto" href=""><ion-icon name="trash-bin"></ion-icon></a>
-            </div>
-            
-            <div id="linhaProdutos">
-                <div id="produto">
-                    <img src="img/Produtos/Dionaea Giant Clam.jpg" width="80px">
-                    <p id="nomeProduto">Dionaea Giant Clam</p>
-                </div>
-                <p class="estoque">10</p>
-                <p>R$49,90</p>
-                <a class="iconProduto" href=""><ion-icon id="editarIcon" name="pencil-sharp"></ion-icon></a>
-                <a class="iconProduto" href=""><ion-icon name="trash-bin"></ion-icon></a>
-            </div>
-            
-            <div id="linhaProdutos">
-                <div id="produto">
-                    <img src="img/Produtos/Drosera Binata Variação Binata.jpg" width="80px">
-                    <p id="nomeProduto">Drosera Binata Variação Binata</p>
-                </div>
-                <p class="estoque">10</p>
-                <p>R$19,90</p>
-                <a class="iconProduto" href=""><ion-icon id="editarIcon" name="pencil-sharp"></ion-icon></a>
-                <a class="iconProduto" href=""><ion-icon name="trash-bin"></ion-icon></a>
-            </div>
-        </div>
+            <h2>Preço</h2>
+            <input class="inputs" type="text" placeholder="Ex: R$49,90">
+
+            <h2>Ficha técnica</h2>
+            <input id="inputText" type="text">
+
+            <h2>Categoria</h2>
+            <select>
+                <option>Dionaeas</option>
+                <option>Droseras</option>
+                <option>Sarracênias</option>
+                <option>Nepenthes</option>
+                <option>Pinguiculas</option>
+                <option>Insumos</option>
+            </select>
+
+            <h2>Upload de imagem do produto</h2><br>
+            <input type="file">
+        </form>
+       </div>
     </div>
 
 
