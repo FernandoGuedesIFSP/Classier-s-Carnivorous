@@ -76,8 +76,8 @@
     justify-content: center;
 }
 .caixaProduto{
-    width: 250px;
-    height: 420px;
+    width: 350px;
+    height: 520px;
     margin: 20px 0px;
     background-color: #dceedb;
     display: flex;
